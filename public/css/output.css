@@ -9,6 +9,7 @@
     --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-orange-900: oklch(40.8% 0.123 38.172);
     --color-amber-700: oklch(55.5% 0.163 48.998);
     --color-amber-800: oklch(47.3% 0.137 46.201);
     --color-white: #fff;
@@ -31,6 +32,7 @@
     --text-6xl--line-height: 1;
     --text-8xl: 6rem;
     --text-8xl--line-height: 1;
+    --font-weight-extralight: 200;
     --font-weight-medium: 500;
     --font-weight-semibold: 600;
     --font-weight-bold: 700;
@@ -198,11 +200,32 @@
   .table {
     display: table;
   }
+  .h-10 {
+    height: calc(var(--spacing) * 10);
+  }
+  .h-20 {
+    height: calc(var(--spacing) * 20);
+  }
+  .h-40 {
+    height: calc(var(--spacing) * 40);
+  }
+  .h-50 {
+    height: calc(var(--spacing) * 50);
+  }
+  .h-\[150px\] {
+    height: 150px;
+  }
   .min-h-\[95vh\] {
     min-height: 95vh;
   }
   .min-h-\[100vh\] {
     min-height: 100vh;
+  }
+  .w-50 {
+    width: calc(var(--spacing) * 50);
+  }
+  .w-100 {
+    width: calc(var(--spacing) * 100);
   }
   .w-\[27\%\] {
     width: 27%;
@@ -210,11 +233,29 @@
   .w-\[30\%\] {
     width: 30%;
   }
+  .w-\[45\%\] {
+    width: 45%;
+  }
+  .w-\[45\] {
+    width: 45;
+  }
   .w-\[50\%\] {
     width: 50%;
   }
   .w-\[50\] {
     width: 50;
+  }
+  .w-\[50vw\] {
+    width: 50vw;
+  }
+  .w-\[60vw\] {
+    width: 60vw;
+  }
+  .w-\[64vw\] {
+    width: 64vw;
+  }
+  .w-\[150px\] {
+    width: 150px;
   }
   .w-fit {
     width: fit-content;
@@ -279,6 +320,9 @@
   .gap-10 {
     gap: calc(var(--spacing) * 10);
   }
+  .gap-14 {
+    gap: calc(var(--spacing) * 14);
+  }
   .gap-16 {
     gap: calc(var(--spacing) * 16);
   }
@@ -330,8 +374,14 @@
   .bg-\[\#181214\] {
     background-color: #181214;
   }
+  .bg-\[\#431722\] {
+    background-color: #431722;
+  }
   .bg-\[\#\] {
     background-color: #;
+  }
+  .bg-\[431722\] {
+    background-color: 431722;
   }
   .bg-\[url\(\/public\/images\/Portrait_of_a_Woman_in_Maroon_Headscarf\.png\)\] {
     background-image: url(/public/images/Portrait_of_a_Woman_in_Maroon_Headscarf.png);
@@ -359,6 +409,12 @@
   }
   .p-10 {
     padding: calc(var(--spacing) * 10);
+  }
+  .p-25 {
+    padding: calc(var(--spacing) * 25);
+  }
+  .p-30 {
+    padding: calc(var(--spacing) * 30);
   }
   .px-3 {
     padding-inline: calc(var(--spacing) * 3);
@@ -451,6 +507,10 @@
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
   }
+  .font-extralight {
+    --tw-font-weight: var(--font-weight-extralight);
+    font-weight: var(--font-weight-extralight);
+  }
   .font-medium {
     --tw-font-weight: var(--font-weight-medium);
     font-weight: var(--font-weight-medium);
@@ -470,6 +530,24 @@
   }
   .text-\[\#24171c\] {
     color: #24171c;
+  }
+  .text-\[--\] {
+    color: --;
+  }
+  .text-\[var\(\)\] {
+    color: var();
+  }
+  .text-\[var\(--c\)\] {
+    color: var(--c);
+  }
+  .text-\[var\(--colo\)\] {
+    color: var(--colo);
+  }
+  .text-\[var\(--color\)\] {
+    color: var(--color);
+  }
+  .text-\[var\(--color-beta\)\] {
+    color: var(--color-beta);
   }
   .text-\[var0\(\)\] {
     color: var0();
@@ -491,6 +569,9 @@
   }
   .text-amber-800 {
     color: var(--color-amber-800);
+  }
+  .text-orange-900 {
+    color: var(--color-orange-900);
   }
   .text-white {
     color: var(--color-white);

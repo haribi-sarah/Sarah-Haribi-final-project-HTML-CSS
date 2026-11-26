@@ -63,7 +63,7 @@
     font-size: larger;
     font-weight: bold;
     padding: 10px 0;
-    
+    color: var(--color-beta);
 }
 .box img{
     width: 100%;
