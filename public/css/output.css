@@ -234,6 +234,9 @@
   .resize {
     resize: both;
   }
+  .list-disc {
+    list-style-type: disc;
+  }
   .flex-col {
     flex-direction: column;
   }
@@ -242,6 +245,9 @@
   }
   .items-baseline-last {
     align-items: last baseline;
+  }
+  .items-start {
+    align-items: flex-start;
   }
   .justify-around {
     justify-content: space-around;
@@ -317,6 +323,9 @@
   }
   .bg-\[\#393a3bc5\] {
     background-color: #393a3bc5;
+  }
+  .bg-\[\#120404\] {
+    background-color: #120404;
   }
   .bg-\[\#181214\] {
     background-color: #181214;

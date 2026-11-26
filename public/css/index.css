@@ -34,7 +34,39 @@
 .color-orange{
     color: var(--color-beta);
 }
-
-.chapter1{
+.boxess{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.first-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.second-line{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
     
+    align-items: center;
+    border-radius: 70px;
+    width: 27vw;
+    height: 65vh;
+
+}
+.box h1{
+    font-size: larger;
+    font-weight: bold;
+    padding: 10px 0;
+    
+}
+.box img{
+    width: 100%;
+    height: 60%;
+    border-radius: 20px;
 }
