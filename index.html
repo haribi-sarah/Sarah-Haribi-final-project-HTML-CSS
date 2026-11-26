@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="./public/css/index.css">
     <link rel="stylesheet" href="./public/css/output.css">
 </head>
-<body>
-    <header>
-        <div class="nav-bar">
+<body class="font-serif">
+    <header >
+        <div class="nav-bar relative">
             <h1>UN<span class="color-orange">BOUND.</span></h1>
-            <nav>
+            <nav class="max-sm:absolute max-sm:flex max-sm:flex-col max-sm:-right-100">
                 <a href="./public/pages/THE-REALITY.html" class="reality-link">THE REALITY</a>
                 <a href="./public/pages/HER-VOICE.html" class="voice-link">HER VOICE</a>
                 <a href="./public/pages/TAKE-ACTION.html" class="action-link">TAKE ACTION</a>
@@ -19,7 +19,23 @@
             </nav>
         </div>
     </header>
-    <main></main>
+    <main>
+        <section class="chapter1 px-6 flex flex-col gap-10 bg-[url(/public/images/Portrait_of_a_Woman_in_Maroon_Headscarf.png)] bg-[#393a3b7c] bg-blend-multiply   bg-no-repeat bg-cover bg-[center_45%] w-full min-h-[95vh] flex flex-col text-white">
+            <div class="pt-10">
+                <p class="text-sm">CHAPTER 01 / THE REALITY</p>
+            </div>
+            <div class="flex flex-col gap-8">
+                <h1 class="text-8xl font-bold">War takes home.</h1>
+                <h1 class="text-8xl text-(--color-beta)">Not her humanity.</h1>
+                <h3 class="text-2xl">Her rights have no borders.</h3>
+                <p>An intimate look at women’s lives in conflict and displacement.</p>
+                <p>Beyond the headlines. Beyond the numbers. Never beyond hope.</p>
+
+            </div>
+            <button class="border w-fit bg-(--color-beta) p-3 rounded-3xl"><a href="./public/pages/THE-REALITY.html">EXPLORE THE REALITY</a> </button>
+        </section>
+       
+    </main>
     <footer></footer>
 </body>
 </html>
