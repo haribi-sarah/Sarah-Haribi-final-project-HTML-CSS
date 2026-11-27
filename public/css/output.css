@@ -428,6 +428,9 @@
     border-left-style: var(--tw-border-style);
     border-left-width: 1px;
   }
+  .border-\(--color\) {
+    border-color: var(--color);
+  }
   .border-\(--color-\) {
     border-color: var(--color-);
   }
@@ -623,6 +626,9 @@
   .pb-4 {
     padding-bottom: calc(var(--spacing) * 4);
   }
+  .pb-5 {
+    padding-bottom: calc(var(--spacing) * 5);
+  }
   .pb-6 {
     padding-bottom: calc(var(--spacing) * 6);
   }
@@ -745,6 +751,9 @@
   }
   .text-\(--color\) {
     color: var(--color);
+  }
+  .text-\(--color-\) {
+    color: var(--color-);
   }
   .text-\(--color-beta\) {
     color: var(--color-beta);
