@@ -71,3 +71,17 @@
     height: 60%;
     border-radius: 20px;
 }
+@media (max-width: 450px){
+    .boxess{
+        flex-direction: column;
+    }
+    .first-line{
+        flex-direction: column;
+    }
+    .second-line{
+        flex-direction: column;
+    }
+    .box{
+        width: 70vw;
+    }
+}
